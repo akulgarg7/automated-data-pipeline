@@ -43,7 +43,7 @@ The script runs the following checks on every CSV file:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/automated-data-pipeline.git](https://github.com/YOUR_USERNAME/automated-data-pipeline.git)
+    git clone [https://github.com/akulgarg7/automated-data-pipeline.git](https://github.com/akulgarg7/automated-data-pipeline.git)
     cd automated-data-pipeline
     ```
 
