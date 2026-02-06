@@ -75,3 +75,10 @@ The script runs the following checks on every CSV file:
 [2026-02-06 20:28:36] Auditing file: Superstore.csv...
 [2026-02-06 20:28:36] SUCCESS: File valid. Moved to processed_data
 [2026-02-06 20:28:36] --- BATCH COMPLETE ---
+```
+## 🔮 Future Improvements
+* **Multiprocessing:** Implement Python's `multiprocessing` library to validate files in parallel, speeding up performance for millions of files.
+
+* **Email Alerts:** Integrate SMTP to send an email notification to the Admin whenever a file is quarantined.
+
+* **Database Hook:** Add a step to automatically load valid CSVs into a SQL database after processing.
