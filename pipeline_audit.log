@@ -1,0 +1,7 @@
+[2026-02-06 20:28:35] --- INITIALIZING PIPELINE FOR: incoming_data ---
+[2026-02-06 20:28:35] Auditing file: corrupt_data.csv...
+[2026-02-06 20:28:36] FAILURE: Missing critical columns: ['Sales']. Moved to quarantine_data
+[2026-02-06 20:28:36] Auditing file: Superstore.csv...
+[2026-02-06 20:28:36] SUCCESS: File valid. Moved to processed_data
+[2026-02-06 20:28:36] --- BATCH COMPLETE ---
+[2026-02-06 20:28:36] Summary: 1 Valid | 1 Rejected
