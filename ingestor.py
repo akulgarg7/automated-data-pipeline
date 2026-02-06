@@ -25,10 +25,6 @@ def log_message(message):
 
 # 2. VALIDATION LOGIC
 def validate_file(file_path):
-    """
-    Checks the file for data integrity. 
-    Returns: (bool, str) -> (IsValid, Reason)
-    """
     try:
         try:
             df = pd.read_csv(file_path, encoding='utf-8')
@@ -106,3 +102,4 @@ if __name__ == "__main__":
     
 
     process_batch(args.input)
+
